@@ -26,8 +26,9 @@
 	padding: 5px 10px;
 	margin-bottom: 20px;
     opacity: 0.5;
+	overflow: hidden;
 
-    	transition-duration: 0.8s;
+    transition-duration: 0.8s;
 }
 
 .story-card img {
@@ -35,12 +36,11 @@
 	position: relative;
 	top:-100%;
 
-    	transition-duration: 0.8s;
+    transition-duration: 0.8s;
 }
 
 .story-card-content{
 	height: 300px;
-	overflow: hidden;
 
 	transition-duration: 0.8s;
 }
@@ -49,17 +49,29 @@
 	opacity: 1;
 }
 
-.story-card:hover img{
-	top:0;
+.story-card:hover > .story-card-footer{
+	height: 50%;
+    bottom: calc(50% - 30px);
 }
 
-.story-card:hover > .story-card-content{
-	height: 100%;
+.story-card-footer {
+    height: 30px;
+    bottom: 0;
+    position: relative;
+    background-color: rgba(0.2, 0.2, 0.2, 0.9);
+    color: rgb(210, 210, 210);
+
+    transition-duration: 0.8s;
+}
+
+.story-card-title{
+    font-size: 16px;
 }
 
 .story-card-caption {
 	height: 30px;
 	text-align: center;
+    font-size: 10px;
 }
 
 .story-grid {
