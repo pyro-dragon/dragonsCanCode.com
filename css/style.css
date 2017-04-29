@@ -1,0 +1,51 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+    background: url("../pics/background.png") !important;;
+	height: auto !important;
+	margin-bottom: 90px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.header{
+	color: #efefef;
+    background: linear-gradient(rgba(1, 1, 1, 0.85),
+                                rgba(1, 1, 1, 0.95)),
+                url("../pics/code-1076536_1920.jpg");
+	border-radius: 0px 0px 15px 15px;
+	margin: 50px 10% 20px 10%;
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 63px;
+}
+
+.header p{
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.page-container{
+	background-color: #efefef;
+	border-radius: 15px;
+	margin: 0 10% -15px 10%;
+	padding: 10px 10px 25px 10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  text-align: right;
+}
