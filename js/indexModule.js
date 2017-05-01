@@ -1,1 +1,3 @@
-var indexModule = angular.module("indexModule", ["ngRoute", "angularCSS", "aboutModule", "skillsModule", "projectsModule", "contactModule"]);
+var indexModule = angular.module("indexModule", ["ngRoute", "angularCSS",
+                                                 "storyCard",
+                                                 "aboutModule", "skillsModule", "projectsModule", "contactModule"]);

@@ -4,19 +4,4 @@ indexModule.controller("indexController", function($scope)
     {
     	return "Hello all";
     };
-
-	$scope.getLocation = function(location)
-	{
-		if(angular.isDefined(location))
-		{
-			if(location === $location.path())
-			{
-				return true;
-			}
-
-			return false;
-		}
-
-		return $location.path;
-	};
 });
