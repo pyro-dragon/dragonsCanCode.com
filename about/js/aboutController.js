@@ -1,3 +1,3 @@
-aboutModule.controller("aboutController", ["$scope", function($scope) {
-
+aboutModule.controller("aboutController", ["$scope", "articles", function($scope, articles) {
+	$scope.articles = articles;
 }]);

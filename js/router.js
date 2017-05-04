@@ -22,5 +22,9 @@ indexModule.config(function($routeProvider)
     .when("/contact", {
         templateUrl: "contact/partial.htm",
         controller: "contactController"
-    });
+    })
+	.when("/article/:articleLink", {
+		templateUrl: "article/partial.html",
+		controller: "articleController"
+	});
 });

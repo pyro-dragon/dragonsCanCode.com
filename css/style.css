@@ -14,6 +14,14 @@ body{
 	border-radius: 0;
 }
 
+.navbar-brand{
+	font-size: 8pt;
+	text-decoration: overline;
+}
+.navbar-brand span{
+	font-size: 14pt;
+}
+
 .header{
 	color: #efefef;
     background: linear-gradient(rgba(1, 1, 1, 0.85),

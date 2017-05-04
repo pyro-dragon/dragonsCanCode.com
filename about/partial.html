@@ -1,16 +1,8 @@
 <h1>About Me</h1>
 
 <div class="story-grid">
-	<story-card title="My holidays" caption="What I did on my holidays" path="#">
-        <article>
-            <header>What I did on my holidays</header>
-            <section>
-                <p>Fusce vehicula bibendum lacus a auctor. Cras scelerisque at justo eget eleifend. Maecenas commodo velit in enim laoreet eleifend. Fusce finibus lectus sed justo imperdiet, sit amet ultrices urna auctor. Mauris vulputate, turpis et posuere gravida, ligula arcu sodales lacus, sed tempus ex orci sit amet nisl. Curabitur imperdiet lacus nulla, lacinia tempus velit cursus eu. Sed pharetra neque quam, vitae convallis augue fringilla ut. Maecenas faucibus vitae orci a euismod. Suspendisse aliquet, risus scelerisque accumsan tempor, nibh erat efficitur felis, nec tincidunt felis turpis ut turpis. Praesent in turpis nibh. Nam tempor tempor ante nec ultrices. Vestibulum nec feugiat nulla. Sed eu dignissim nunc.</p>
-                <p>In mollis vestibulum ex, in vehicula massa ornare quis. Morbi ipsum tortor, tempor sit amet neque a, gravida viverra magna. Nullam sagittis a sem ut condimentum. Quisque vitae nunc et mauris efficitur ornare. Aenean laoreet convallis nisi, a cursus nibh viverra at. Maecenas vitae justo. </p>
-            </section>
-            <section>
-                <p>Praesent quis magna at leo lacinia hendrerit id in nibh. Mauris egestas mi vestibulum pellentesque feugiat. Nunc porttitor, odio fringilla fringilla varius, sem urna blandit risus, eu ullamcorper velit mi ac massa. Maecenas auctor viverra ante venenatis vehicula. Nunc aliquam, dolor facilisis pulvinar posuere, nunc nisi congue velit, vel varius sapien metus at dui. Integer sollicitudin ullamcorper nulla, accumsan fringilla lectus sollicitudin quis. Cras sollicitudin augue vehicula quam vestibulum vehicula. Duis sed lectus sed tellus ultricies molestie. Quisque ut sem leo. Cras eget eleifend nisl. Nullam ut elementum ligula. Etiam volutpat, metus rutrum efficitur feugiat, leo est vulputate augue, ut. </p>
-            </section>
-        </article>
+	<story-card ng-repeat="article in articles" title="{{article.title}}" caption="{{article.caption}}">
+		<header>{{article.title}}</header>
+		<section>{{article.body}}</section>
 	</story-card>
 </div>
