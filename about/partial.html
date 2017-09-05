@@ -1,8 +1,10 @@
 <h1>About Me</h1>
 
 <div class="story-grid">
-	<story-card ng-repeat="article in articles" title="{{article.title}}" caption="{{article.caption}}">
-		<header>{{article.title}}</header>
-		<section>{{article.body}}</section>
-	</story-card>
+    <a ng-repeat="article in articles" href="#/article/{{article.link}}">
+    	<story-card title="{{article.title}}" caption="{{article.caption}}">
+    		<header>{{article.title}}</header>
+    		<section>{{article.body}}</section>
+    	</story-card>
+    </a>
 </div>
