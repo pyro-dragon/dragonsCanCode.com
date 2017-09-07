@@ -1,5 +1,5 @@
-angular.module("articleModule").controller("articleController", ["$scope", "$routeParams", function($scope, $routeParams)
+angular.module("articleModule").controller("articleController", ["$scope", "$routeParams", "articles", function($scope, $routeParams, articles)
 {
 		// Grab the article data
-     $scope.link = $routeParams.articleLink;
+     $scope.article = articles[$routeParams.articleLink];
 }]);

@@ -1,10 +1,9 @@
 <h1>About Me</h1>
 
 <div class="story-grid">
-    <a ng-repeat="article in articles" href="#/article/{{article.link}}">
+    <a class="plain-link" ng-repeat="article in articles" href="#/article/{{article.link}}">
     	<story-card title="{{article.title}}" caption="{{article.caption}}">
-    		<header>{{article.title}}</header>
-    		<section>{{article.body}}</section>
+    		<section ng-bind-html="article.body"></section>
     	</story-card>
     </a>
 </div>

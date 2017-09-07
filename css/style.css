@@ -3,7 +3,7 @@ html {
 	min-height: 100%;
 }
 
-body{
+body {
     background: url("../pics/background.png") !important;;
 	height: auto !important;
 	margin-bottom: 90px;
@@ -14,15 +14,20 @@ body{
 	border-radius: 0;
 }
 
-.navbar-brand{
+.navbar-brand {
 	font-size: 8pt;
-	text-decoration: overline;
-}
-.navbar-brand span{
-	font-size: 14pt;
 }
 
-.header{
+.navbar-brand span {
+    text-decoration: overline;
+}
+
+.navbar-brand span:nth-child(odd) {
+	font-size: 14pt;
+    text-decoration: none;
+}
+
+.header {
 	color: #efefef;
     background: linear-gradient(rgba(1, 1, 1, 0.85),
                                 rgba(1, 1, 1, 0.95)),
@@ -32,19 +37,19 @@ body{
     padding: 20px;
 }
 
-.header h1{
+.header h1 {
     font-size: 63px;
 }
 
-.header p{
+.header p {
     font-size: 21px;
     font-weight: 200;
 }
 
-.page-container{
+.page-container {
 	background-color: #efefef;
 	border-radius: 15px;
-	margin: 0 10% -15px 10%;
+	margin: 0 10% 0 10%;
 	padding: 10px 10px 25px 10px;
 }
 
@@ -56,4 +61,9 @@ body{
   height: 60px;
   background-color: #f5f5f5;
   text-align: right;
+}
+
+a.plain-link {
+    text-decoration: none;
+    color: inherit;
 }
