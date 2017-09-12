@@ -1,4 +1,12 @@
 angular.module("articleModule").constant("articles", {
+	"briskoda2017": {
+		date: "10/09/2017",
+		title: "Briskoda National Meet 2017",
+		caption: "This years anual meeting of the Briskoda Skoda owners forum.",
+		image: "pics/briskoda.png",
+		body: "<p>This was the first car enthisiasts meeting I've been to and it was a blast! The venue was the <a href='https://www.rafmuseum.org.uk/cosford/' title='Cosford RAF Museum'>Cosford RAF Museum</a> which was a fun drive to get to.</p><p>Two friends and I set of in a small convoy up the M5/M6 and braved the 30 mph speed restrictions on the Birmingham flyover. We arrived early, following a very obvious Briskodian into the compound and finding ourselved in the wrong car park. In a slightly larger convoy we set off to find the correct location on the second try.</p><p>There were a lot of fine looking motors there, some polished to perfection, others wearing their battle scars with pride. The highlights there were the 560bhp Skoda Supurb with the Greenline badge on the back and the 1989 Skoda Rapid with the rear mounted Rover engine conversion.</p><p>As an ameture detailer I took pride in seeing the admiering glances my motor received, especially being the only one in its colour there.</p><p>The only downside to the day was the wonderful british weather. While it was generous enough to save the rain until 3pm, the winds were wild and the tempreture took a nasty plunge. All in all though it was a great day, well run by the organisers. I even got a lovely new sticker for my rear window!</p>",
+        link: "briskoda2017"
+	},
 	"render2017": {
 		date: "2/04/2017",
 		title: "Render 2017",

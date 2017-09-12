@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    background: url("../pics/background.png") !important;;
+    background-color: #363636;
+    background: url("../pics/background.png");
 	height: auto !important;
 	margin-bottom: 90px;
 }

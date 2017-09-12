@@ -19,9 +19,8 @@
 }
 
 .story-card img {
-	width: 330px;
+	width: 310px;
 	position: relative;
-	top:-100%;
 
     transition-duration: 0.8s;
 }
