@@ -25,6 +25,7 @@ indexModule.config(function($routeProvider)
     })
 	.when("/article/:articleLink", {
 		templateUrl: "article/partial.html",
-		controller: "articleController"
+		controller: "articleController",
+        css: "article/css/style.css"
 	});
 });

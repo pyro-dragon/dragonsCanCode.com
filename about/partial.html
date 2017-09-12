@@ -1,8 +1,14 @@
-<h1>About Me</h1>
+<header class="container">
+    <div class="row">
+        <h1 class="col-md-12">About Me</h1>
+    </div>
+</header>
 
 <div class="story-grid">
-	<story-card ng-repeat="article in articles" title="{{article.title}}" caption="{{article.caption}}">
-		<header>{{article.title}}</header>
-		<section>{{article.body}}</section>
-	</story-card>
+    <a class="plain-link" ng-repeat="article in articles" href="#/article/{{article.link}}">
+    	<story-card title="{{article.title}}" caption="{{article.caption}}">
+            <img ng-if="article.image" ng-src="{{article.image}}" alt="Article Image" />
+    		<section ng-if="!article.image" ng-bind-html="article.body"></section>
+    	</story-card>
+    </a>
 </div>

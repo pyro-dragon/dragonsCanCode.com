@@ -1,0 +1,10 @@
+<header class="container">
+    <div class="row">
+        <h1 class="col-md-10">{{article.title}}</h1><time class="col-md-2">{{article.date}}</time>
+    </div>
+</header>
+
+<img ng-if="article.image" class="article-image hidden-xs" ng-src="{{article.image}}" alt="Article Image" />
+
+<article ng-bind-html="article.body">
+</article>
