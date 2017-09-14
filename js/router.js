@@ -10,6 +10,9 @@ indexModule.config(function($routeProvider)
         controller: "homeController",
         css: "home/css/style.css"
     })
+    .when("/about", {
+        templateUrl: "about/partial.html"
+    })
     .when("/skills", {
         templateUrl: "skills/partial.html",
         controller: "skillsController",

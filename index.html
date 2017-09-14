@@ -24,10 +24,7 @@
 		<script src="home/js/homeController.js"></script>
 		<link rel="stylesheet" type="text/css" href="home/css/style.css">
 
-		<!--script src="about/js/aboutModule.js"></script>
-		<script src="about/js/content.js"></script>
-		<script src="about/js/aboutController.js"></script>
-		<link rel="stylesheet" type="text/css" href="about/css/style.css"-->
+		<script src="about/js/aboutModule.js"></script>
 
 		<script src="skills/js/skillsModule.js"></script>
 		<script src="skills/js/skillsController.js"></script>
@@ -71,6 +68,9 @@
 					<ul class="nav navbar-nav">
 						<li ng-class="getLocation('/home')? 'active' : ''">
 							<a href="#/home">Home</a>
+						</li>
+						<li ng-class="getLocation('/about')? 'active' : ''">
+							<a href="#/about">About Me</a>
 						</li>
 						<li ng-class="getLocation('/skills')? 'active' : ''">
 							<a href="#/skills">Skills</a>
