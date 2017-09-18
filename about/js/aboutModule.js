@@ -1,1 +1,1 @@
-var aboutModule = angular.module("aboutModule", []);
+angular.module("aboutModule", []);

@@ -1,0 +1,14 @@
+<header>
+    <div>
+        <h1>Blog</h1>
+    </div>
+</header>
+
+<div class="story-grid">
+    <a class="plain-link" ng-repeat="article in articles" href="#/article/{{article.link}}">
+    	<story-card title="{{article.title}}" caption="{{article.caption}}">
+            <img ng-if="article.image" ng-src="{{article.image}}" alt="Article Image" />
+    		<section ng-if="!article.image" ng-bind-html="article.body"></section>
+    	</story-card>
+    </a>
+</div>
