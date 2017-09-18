@@ -20,9 +20,9 @@
 		<script src="article/js/articleController.js"></script>
 		<link rel="stylesheet" type="text/css" href="article/css/style.css">
 
-		<script src="home/js/homeModule.js"></script>
-		<script src="home/js/homeController.js"></script>
-		<link rel="stylesheet" type="text/css" href="home/css/style.css">
+		<script src="blog/js/blogModule.js"></script>
+		<script src="blog/js/blogController.js"></script>
+		<link rel="stylesheet" type="text/css" href="blog/css/style.css">
 
 		<script src="about/js/aboutModule.js"></script>
 
@@ -66,11 +66,11 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li ng-class="getLocation('/home')? 'active' : ''">
-							<a href="#/home">Home</a>
-						</li>
 						<li ng-class="getLocation('/about')? 'active' : ''">
 							<a href="#/about">About Me</a>
+						</li>
+						<li ng-class="getLocation('/blog')? 'active' : ''">
+							<a href="#/blog">Blog</a>
 						</li>
 						<li ng-class="getLocation('/skills')? 'active' : ''">
 							<a href="#/skills">Skills</a>

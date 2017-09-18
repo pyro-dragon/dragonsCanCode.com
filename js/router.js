@@ -2,13 +2,12 @@ indexModule.config(function($routeProvider)
 {
     $routeProvider
     .when("/", {
-        templateUrl: "home/partial.html",
-        controller: "homeController"
+        templateUrl: "about/partial.html"
     })
-    .when("/home", {
-        templateUrl: "home/partial.html",
-        controller: "homeController",
-        css: "home/css/style.css"
+    .when("/blog", {
+        templateUrl: "blog/partial.html",
+        controller: "blogController",
+        css: "blog/css/style.css"
     })
     .when("/about", {
         templateUrl: "about/partial.html"
