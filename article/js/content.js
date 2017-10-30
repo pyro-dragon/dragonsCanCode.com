@@ -1,4 +1,20 @@
 angular.module("articleModule").constant("articles", {
+	"electron": {
+		date: "29/10/2017",
+		title: "Electron adventures",
+		caption: "Its been a bit quiet as of late so I've been playing with Github's Electron",
+		image: "pics/electron-logo.png",
+		body: "<p>Its been a bit quiet as of late so I've been playing with Github's <a href='https://electron.atom.io/'>Electron</a>. It looks to be a take on that Adobe Air thing that went around a few years back, essentally a system for housing and running a web app as a local desktop application. Its been a while since I've done desktop application development and its nice to know that I can very quickly adapt my web app development knowlege.</p><p>Now the general gist is that it is a node application that lets you do all the good stuff node lets you do (access to the local file system, etc) but it also spawns Chromium instances in windows for renderind and running the main application. </p><p>So as an experiment and because I have been plotting something like this for some time, I very quickly put together a rough demo of an image cataloging system. For the database I'm using <a href='https://pouchdb.com/'>PouchDB</a>, another technology I have been interested in. Mostly because its some more lovely CouchDB goodness.</p><p>Using PouchDB gives me the lovely option of replicating accross to a 'real' CouchDB database server at some point. Soulds like a nice way to synchronise between instances I think. Better than just using Dropbox.</p><p>Anyway, the application has kind of evolved slightly since that first rough one-day-build. Its still far from a release candidate but you can follow along the progress at the <a href='https://github.com/pyro-dragon/tagUrImg'>Github repo</a>. The appearance may look a little familier. I dumped in the base app used for this website as a way to get me started without having to build a full navigation and rendering framework. I'll probably explore better UI options down the line such as <a href='http://photonkit.com/'>Photon</a></p>",
+		link: "electron"
+	},
+	"vegaryzen": {
+		date: "24/09/2017",
+		title: "Full AMD build",
+		caption: "After many years I can finally go full AMD again!",
+		image: "pics/amd-logo.png",
+		body: "<p>After too many years I have finally been able to embrace my full AMD fanboy madness without facing the terrible ridicule of others. Maybe. AMD have now brought to the table both a set of CPUs and GPUs that are respectable. What's more is that they have healpfully created bundle deals for them too. </p><p>It was a little tricky to find one of these bundles in the UK but overclockers.co.uk did one and am quite pleased with the results so far. The motherboard even has cool glowing lights on it. I am all about cool glowing lights.</p><p>I did go for the slightly more expensive Radeon 64 RX, Ryzen 7 1800X deal but not the water-cooled one. The price-to-performance gain was just not great. This was in a way a budget upgrade. The only changes made were the bundle components. Hard drives, PSU, case, etc were all kept, althought I did take the oppotunity to take everything appart and clean it all down. The case especially; it has seen loyal service since 2010.</p><p>The first game threw at it was ARK: Survival Evolved. On my pervious setup I could only play this in 'potato mode', now I could jack up all the settings and see how it really should look and it was amazing. The framerates were so smooth. Beautiful. Next I tried GTA V on full graphical settings. The frame rates there were less than impressive. But then again it is a port, its not hugely efficiant. I think the best part about this new PC though is how quiet it is. I had to leave it on overnight for a few night to download games and it was so easy to leave it going and not notice it. Lets see how it holds up over the next year or so and see what games I can challenge it with</p>",
+        link: "vegaryzen"
+	},
 	"briskoda2017": {
 		date: "10/09/2017",
 		title: "Briskoda National Meet 2017",

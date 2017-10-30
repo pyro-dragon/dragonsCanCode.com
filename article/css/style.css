@@ -1,8 +1,10 @@
 .article-image{
     float: right;
-    max-width: 100%;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 article{
     padding: 15px;
+	min-height: 350px;
 }
